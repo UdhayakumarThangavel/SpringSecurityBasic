@@ -1,0 +1,10 @@
+POST http://localhost:8080/adduser
+Content-Type: application/json
+
+{
+  "firstName": "Udhayakumar",
+  "lastName": "T",
+  "email": "dev.udhayakumar",
+  "password": "123456",
+  "roles" : "USER"
+}
