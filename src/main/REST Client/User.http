@@ -1,3 +1,4 @@
+# @no-redirect
 POST http://localhost:8080/adduser
 Content-Type: application/json
 
@@ -6,5 +7,17 @@ Content-Type: application/json
   "lastName": "T",
   "email": "dev.udhayakumar",
   "password": "123456",
-  "roles" : "USER"
+  "role" : "ROLE_USER"
+}
+
+###
+POST http://localhost:8080/adduser
+Content-Type: application/json
+
+{
+  "firstName": "Vaishnavi",
+  "lastName": "S",
+  "email": "vaishnaviselvi@gmail.com",
+  "password": "123456",
+  "role" : "ROLE_USER"
 }
